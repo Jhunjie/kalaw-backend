@@ -1,0 +1,21 @@
+# Web framework
+fastapi
+uvicorn[standard]
+
+# Environment variables
+python-dotenv
+
+# Supabase
+supabase
+
+# Document processing
+pymupdf          # fitz - PDF processing
+python-pptx      # pptx - PowerPoint processing
+python-docx      # docx - Word document processing
+Pillow           # image processing
+
+# HTTP client (used by supabase + ollama calls)
+httpx
+
+# Encoding / utilities
+python-multipart  # required for FastAPI file uploads (UploadFile/Form)
